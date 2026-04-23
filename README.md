@@ -5,7 +5,7 @@ This repository contains a production-ready, end-to-end quantitative data pipeli
 
 ## System Architecture
 
-1. **The Data Pipeline (Phase 1):** * Extracts historical pricing and volume data via Yahoo Finance.
+1. **The Data Pipeline (Phase 1):** Extracts historical pricing and volume data via Yahoo Finance.
    * Cleans, transforms, and engineers base financial features.
    * Loads structured, validated data into a local **PostgreSQL** database.
 2. **The ML Model (Phase 2):**
@@ -39,18 +39,15 @@ Below are the backtest results for the 1-Day forecasting strategy. The charts de
 
 ### Apple Inc. (AAPL)
 *Observation: Individual tech stocks exhibit higher idiosyncratic noise, testing the model's ability to capture aggressive momentum swings.*
-![AAPL Forecast Line](AAPL_1_forecast_line.png)
-*(Optional: View [AAPL Scatter](AAPL_2_scatter_correlation.png) | View [AAPL Backtest](AAPL_3_cumulative_backtest.png))*
+![AAPL Forecast Line](images/AAPL_1_forecast_line.png)
 
 ### Microsoft Corp. (MSFT)
 *Observation: Evaluates the model's edge on sustained, high-beta momentum trends.*
-![MSFT Forecast Line](MSFT_1_forecast_line.png)
-*(Optional: View [MSFT Scatter](MSFT_2_scatter_correlation.png) | View [MSFT Backtest](MSFT_3_cumulative_backtest.png))*
+![MSFT Forecast Line](images/MSFT_1_forecast_line.png)
 
 ### S&P 500 ETF (SPY)
 *Observation: The ultimate baseline. Proves the Efficient Market Hypothesis that broad, highly-arbitraged index funds are incredibly resistant to simple 1-day momentum strategies.*
-![SPY Forecast Line](SPY_1_forecast_line.png)
-*(Optional: View [SPY Scatter](SPY_2_scatter_correlation.png) |  View [SPY Backtest](SPY_3_cumulative_backtest.png) )*
+![SPY Forecast Line](images/SPY_1_forecast_line.png)
 
 ## Tech Stack
 
