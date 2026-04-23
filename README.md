@@ -1,9 +1,7 @@
 # End-to-end ML trading pipeline
 
 ## Overview
-This repository contains a production-ready, end-to-end quantitative data pipeline and algorithmic trading backtester. It is designed to rigorously test whether basic momentum and mean-reversion features can generate a statistical edge on a 1-day trading horizon for highly liquid mega-cap equities (AAPL, MSFT) and broad market indices (SPY).
-
-This project strictly separates data engineering (ETL via PostgreSQL) from data science (Machine Learning via Scikit-Learn) to mimic institutional architecture.
+This repository contains a production-ready, end-to-end quantitative data pipeline and algorithmic trading backtester. It is designed to rigorously test whether basic momentum and mean-reversion features can generate a statistical edge on a 1-day trading horizon for highly liquid mega-cap equities (AAPL, MSFT) and broad market indices (SPY). This project strictly separates data engineering (ETL via PostgreSQL) from data science (Machine Learning via Scikit-Learn) to mimic institutional architecture.
 
 ## System Architecture
 
